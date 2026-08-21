@@ -14,9 +14,12 @@ Was möchten Sie generell im Vergleich zur letzten Lernperiode anpassen?
 
 ### Projekte / neue Technologien
 Was für Projekte/neue Technologien möchten Sie gerne in dieser Lernperiode lernen?
+
 Ich möchte kleine Minispiele machen, somit ich diese Periode als Zeit nehmen um C# zu weiterlernen.
+
 ### Generelle Ziele
 Was haben Sie für klare und messbare Ziele in dieser Lernperiode?
+
 Mein Wissen bei C# zu erweitern
 Zwei kleine Projekte machen für mein Portfolio
 
