@@ -24,7 +24,7 @@ Zwei kleine Projekte machen für mein Portfolio
 - [ ] Repetieren, was ich im Modul 431 in der Woche gemacht habe (Flashcards)
 - [ ] Für 319 ein Miniprogramm auf C# machen von Begriffen, die ich schon kenne. (wurde teilweise in der Woche gemacht, wird nur für mir selbst gemacht als "Bibliothek" von Begriffen, Funktionen, etc.)
 - [ ] Für 319 mache ich noch heute ein Teil (bis zum timerTick) eines Minispieles auf C#. (Pong) 
-- [ ] Alle alte Dokumente vom letzten Jahr neu ordnen, somit ich ein besseren Überblick bekomme.
+- [x] Alle alte Dokumente vom letzten Jahr neu ordnen, somit ich ein besseren Überblick bekomme.
 ## Reflexion 21.08.2026
 -
 
