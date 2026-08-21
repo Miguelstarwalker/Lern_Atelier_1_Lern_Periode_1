@@ -24,10 +24,11 @@ Mein Wissen bei C# zu erweitern
 Zwei kleine Projekte machen für mein Portfolio
 
 ## Planung 21.08.2026
-- [ ] Repetieren, was ich im Modul 431 in der Woche gemacht habe (Flashcards)
-- [ ] Für 319 ein Miniprogramm auf C# machen von Begriffen, die ich schon kenne. (wurde teilweise in der Woche gemacht, wird nur für mir selbst gemacht als "Bibliothek" von Begriffen, Funktionen, etc.)
-- [ ] Für 319 mache ich noch heute ein Teil eines Minispieles (Pong) auf C#. Der Teil, an dem ich heute arbeite, ist, wie man Windows Forms benutzt.
+- [x] Repetieren, was ich im Modul 431 in der Woche gemacht habe (Flashcards)
+- [x] Für 319 ein Miniprogramm auf C# machen von Begriffen, die ich schon kenne. (wurde teilweise in der Woche gemacht, wird nur für mir selbst gemacht als "Bibliothek" von Begriffen, Funktionen, etc.)
+- [x] Für 319 mache ich noch heute ein Teil eines Minispieles (Pong) auf C#. Der Teil, an dem ich heute arbeite, ist, wie man Windows Forms benutzt.
 - [x] Alle alte Dokumente vom letzten Jahr neu ordnen, somit ich ein besseren Überblick bekomme.
 ## Reflexion 21.08.2026
--
+Wünschte ich hätte mehr Zeit um zu arbeiten :(
+<img width="863" height="467" alt="image" src="https://github.com/user-attachments/assets/33f7b52b-61df-4ea6-a839-68933ba166c1" />
 
