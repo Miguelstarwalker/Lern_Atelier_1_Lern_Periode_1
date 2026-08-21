@@ -3,7 +3,7 @@ Name: Ferreira Gomes Miguel
 
 14.08.2026 bis -.-.2026
 
-## Grob-Planung
+### Grob-Planung
 ### Noten
 Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
 -
