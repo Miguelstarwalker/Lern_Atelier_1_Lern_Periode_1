@@ -23,7 +23,7 @@ Zwei kleine Projekte machen für mein Portfolio
 ## Planung 21.08.2026
 - [ ] Repetieren, was ich im Modul 431 in der Woche gemacht habe (Flashcards)
 - [ ] Für 319 ein Miniprogramm auf C# machen von Begriffen, die ich schon kenne. (wurde teilweise in der Woche gemacht, wird nur für mir selbst gemacht als "Bibliothek" von Begriffen, Funktionen, etc.)
-- [ ] Für 319 mache ich noch heute ein Teil (bis zum timerTick) eines Minispieles auf C#. (Pong) 
+- [ ] Für 319 mache ich noch heute ein Teil eines Minispieles (Pong) auf C#. Der Teil, an dem ich heute arbeite, ist, wie man Windows Forms benutzt.
 - [x] Alle alte Dokumente vom letzten Jahr neu ordnen, somit ich ein besseren Überblick bekomme.
 ## Reflexion 21.08.2026
 -
