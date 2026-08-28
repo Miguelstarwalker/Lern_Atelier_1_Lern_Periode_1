@@ -32,8 +32,8 @@ Zwei kleine Projekte machen für mein Portfolio
 Wünschte ich hätte mehr Zeit um zu arbeiten :(
 <img width="863" height="467" alt="image" src="https://github.com/user-attachments/assets/33f7b52b-61df-4ea6-a839-68933ba166c1" />
 ## Planung 28.08.2026
-- [ ] Pong Projekt Fertigstellen (Musik, Hintergrund, etc.)
-- [ ] Ein Readme für das Projekt erstellen (Urheberrecht, Infos, etc.)
-- [ ] Projekt Auf mein Github ablegen
-- [ ] Neues Projekt finden und starten (wird es ein Spiel sein? Script? Etwas anderes? Ich muss überlegen was ich in dieser Zeit fertigstellen möchte)
+- [x] Pong Projekt Fertigstellen (Musik, Hintergrund, etc.)
+- [x] Ein Readme für das Projekt erstellen (Urheberrecht, Infos, etc.)
+- [x] Projekt Auf mein Github ablegen
+- [x] Neues Projekt finden und starten (wird es ein Spiel sein? Script? Etwas anderes? Ich muss überlegen was ich in dieser Zeit fertigstellen möchte)
 
