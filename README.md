@@ -34,6 +34,11 @@ Wünschte ich hätte mehr Zeit um zu arbeiten :(
 ## Planung 28.08.2026
 - [x] Pong Projekt Fertigstellen (Musik, Hintergrund, etc.)
 - [x] Ein Readme für das Projekt erstellen (Urheberrecht, Infos, etc.)
-- [x] Projekt Auf mein Github ablegen
+- [ ] Projekt Auf mein Github ablegen
 - [x] Neues Projekt finden und starten (wird es ein Spiel sein? Script? Etwas anderes? Ich muss überlegen was ich in dieser Zeit fertigstellen möchte)
-
+## Reflexion 28.08.2026
+Heute konnte ich mein Projekt fertigstellen, was wundervoll ist und mir Hoffnung gibt, ich weis auch schon was mein nächstes Projekt wäre, ein Flappy Bird artiges Spiel. Leider ist nicht alles heute gut gelaufen. Anscheinend ist mein Projekt zu gross für Github, also muss ich etwas namens "Gitbash" nächstes mal nützen. Hoffentlich funktioniert es. Wenn nicht Frage ich eine Person, die es schon kennt. Mein Projekt möchte ich allen zeigen! Es war heute ein wenig lärmig.
+## Planung 04.09.2026
+- [ ] Ich möchte mein Kirby Pong in mein Github hinzufügen indem ich Gitbash nütze und ein Lokale Version meines Repos nütze (muss noch mich über das Informieren)
+- [ ] In mein neuen FLappy bird Projekt möchte ich all meine Assets erstellen und hinzufügen, was Musik und Kunst beinhaltet
+- [ ] In mein neuen Flappy bird Projekt möchte ich programmieren, wie der Spieler konstant fällt und springt
