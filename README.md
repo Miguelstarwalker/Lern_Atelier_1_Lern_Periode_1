@@ -45,3 +45,8 @@ Heute konnte ich mein Projekt fertigstellen, was wundervoll ist und mir Hoffnung
 ## Reflexion 04.09.2026
 Heute ist mir sehr viel schlimmer gegangen. Ich nenne nicht WER es war, aber ich wurde konstant von JEMAND gestört und wurde öfters über mir gesprochen. Es ist ein wenig schwer sich zu konzentrieren, wenn Sachen über dich gesprochen wird :(. Ich konnte nur das ICON und Hintergrund hinzufügen bis jetzt. Das "Frame" für das Programm wurde schon gemacht für jeden Teil. Auch noch ein Punkt ist Gitbash. Ich hab probiert mich zu informieren, aber nichts kam. Temporäre Option ist ein Drive Link welches hier gelinkt. Ich frage mal herum Online. 25 MB LIMIT SOLLTE NICHT EXISTIEREN.
 https://drive.google.com/drive/folders/1gr_s_LQaK-iODPdR7k5o88f4zkVg0FQJ
+## Planung 11.09.2026
+- [ ] Ich möchte mein Kirby Pong in mein Github hinzufügen indem ich Gitbash nütze und ein Lokale Version meines Repos nütze (muss noch mich über das Informieren)
+- [ ] In mein Flappy bird Projekt möchte ich die restlichen meiner Assets erstellen und hinzufügen, was Musik und Kunst beinhaltet
+- [ ] In mein Flappy bird Projekt das Scrollen von Pipes programmieren, somit es nicht immer das Gleiche kommt.
+- [ ] in mein Flappy bird Projekt ein Highscore System programmieren
