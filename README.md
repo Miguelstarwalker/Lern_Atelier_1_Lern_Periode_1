@@ -44,4 +44,4 @@ Heute konnte ich mein Projekt fertigstellen, was wundervoll ist und mir Hoffnung
 - [x] In mein neuen Flappy bird Projekt möchte ich programmieren, wie der Spieler konstant fällt und springt
 ## Reflexion 04.09.2026
 Heute ist mir sehr viel schlimmer gegangen. Ich nenne nicht WER es war, aber ich wurde konstant von JEMAND gestört und wurde öfters über mir gesprochen. Es ist ein wenig schwer sich zu konzentrieren, wenn Sachen über dich gesprochen wird :(. Ich konnte nur das ICON und Hintergrund hinzufügen bis jetzt. Das "Frame" für das Programm wurde schon gemacht für jeden Teil. Auch noch ein Punkt ist Gitbash. Ich hab probiert mich zu informieren, aber nichts kam. Temporäre Option ist ein Drive Link welches hier gelinkt. Ich frage mal herum Online. 25 MB LIMIT SOLLTE NICHT EXISTIEREN.
-https://drive.google.com/drive/folders/1gr_s_LQaK-iODPdR7k5o88f4zkVg0FQJ?usp=sharing
+https://drive.google.com/drive/folders/1gr_s_LQaK-iODPdR7k5o88f4zkVg0FQJ
