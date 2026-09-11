@@ -1,158 +1,131 @@
-using Microsoft.VisualBasic.Devices;
-using System.Media;
-using System.Numerics;
-
-namespace Pong
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+namespace Jumpy
 {
     public partial class Form1 : Form
     {
-        SoundPlayer Kirby = new SoundPlayer(Properties.Resources.Green_Greens___Kirby_s_dream_land);
-        int ballXspeed = 4;
-        int ballYspeed = 4;
-        int speed = 2;
-        Random rand = new Random();
-        bool goDown, goUp;
-        int Keeby_speed_change = 50;
-        int KirbyScore = 0;
-        int KeebyScore = 0;
-        int KirbySpeed = 8;
-        int[] i = { 5, 6, 8, 9 };
-        int[] j = { 10, 9, 8, 11, 12 };
-
-
+        int pipeSpeed = 5;
+        int gravity = 6;
+        int score = 0;
+        bool gameOver = false;
+        bool scoredCurrentPipe = false;
+        Random random = new Random();
         public Form1()
         {
             InitializeComponent();
-            Kirby.PlayLooping();
         }
-
-        private void GameTimerEvent(object sender, EventArgs e)
+        private void gamekeyisdown(object sender, KeyEventArgs e)
         {
-            ball.Top -= ballYspeed;
+            if (gameOver && e.KeyCode == Keys.R)
+            {
+                restartGame();
+                return;
+            }
 
-            ball.Left -= ballXspeed;
-            this.Text = "Kirby Score: " + KirbyScore + " - Keeby Score: " + KeebyScore;
-            if (ball.Top < 0 || ball.Bottom > this.ClientSize.Height)
+            if (e.KeyCode == Keys.Space)
             {
-                ballYspeed = -ballYspeed;
-            }
-            if (ball.Left < -2)
-            {
-                ball.Left = 300;
-                ballXspeed = -ballXspeed;
-                KeebyScore++;
-            }
-            if (ball.Right > this.ClientSize.Width + 2)
-            {
-                ball.Left = 300;
-                ballXspeed = -ballXspeed;
-                KirbyScore++;
-            }
-            if (computer.Top <= 1)
-            {
-                computer.Top = 0;
-            }
-            else if (computer.Bottom >= this.ClientSize.Height)
-            {
-                computer.Top = this.ClientSize.Height - computer.Height;
-            }
-            if (ball.Top < computer.Top + (computer.Height / 2) && ball.Left > 300)
-            {
-                computer.Top -= speed;
-            }
-            if (ball.Top > computer.Top + (computer.Height / 2) && ball.Left > 300)
-            {
-                computer.Top += speed;
-            }
-            Keeby_speed_change -= 1;
-            if (Keeby_speed_change < 0)
-            {
-                speed = i[rand.Next(i.Length)];
-                Keeby_speed_change = 50;
-            }
-            if (goDown && player.Top + player.Height < this.ClientSize.Height)
-            {
-                player.Top += KirbySpeed;
-            }
-            if (goUp && player.Top > 0)
-            {
-                player.Top -= KirbySpeed;
-            }
-            CheckCollision(ball, player, player.Right + 5);
-            CheckCollision(ball, computer, computer.Left - 35);
-            if (KeebyScore > 5)
-            {
-                GameOver("Sorry you lost the game :[");
-            }
-            else if (KirbyScore > 5)
-            {
-                GameOver("You Won this game :]");
+                gravity = -6;
             }
         }
-
-        private void KeyIsDown(object sender, KeyEventArgs e)
+        private void gamekeyisup(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Down)
+            if (gameOver)
             {
-                goDown = true;
+                return;
             }
-            if (e.KeyCode == Keys.Up)
+
+            if (e.KeyCode == Keys.Space)
             {
-                goUp = true;
+                gravity = 6;
             }
         }
-
-        private void KeyIsUp(object sender, KeyEventArgs e)
+        private void endGame()
         {
-            if (e.KeyCode == Keys.Down)
-            {
-                goDown = false;
-            }
-            if (e.KeyCode == Keys.Up)
-            {
-                goUp = false;
-            }
+            gameTimer.Stop();
+            gameOver = true;
+            gameOverText.Visible = true;
+            gameOverText.BringToFront();
+            scoreText.Text = "Score: " + score;
         }
-
-        private void CheckCollision(PictureBox PicOne, PictureBox PicTwo, int offset)
+        private void restartGame()
         {
-            if (PicOne.Bounds.IntersectsWith(PicTwo.Bounds))
+            gameOver = false;
+            score = 0;
+            pipeSpeed = 5;
+            gravity = 6;
+            scoredCurrentPipe = false;
+
+            Kirby.Location = new Point(80, 200);
+            resetPipePositions();
+            scoreText.Text = "Score: 0";
+            gameOverText.Visible = false;
+
+            gameTimer.Start();
+        }
+        private void resetPipePositions()
+        {
+            int pipeLeft = ClientSize.Width + 120;
+            int pipeWidth = random.Next(65, 91);
+            int topMargin = 50;
+            int bottomMargin = 40;
+            int maxGapHeight = Math.Min(140, ground.Top - topMargin - bottomMargin);
+            int gapHeight = random.Next(100, Math.Max(121, maxGapHeight + 1));
+            int maxGapTop = Math.Max(topMargin, ground.Top - gapHeight - bottomMargin);
+            int gapTop = random.Next(topMargin, maxGapTop + 1);
+
+            pipeTop.Left = pipeLeft;
+            pipeBottom.Left = pipeLeft;
+            pipeTop.Width = pipeWidth;
+            pipeBottom.Width = pipeWidth;
+
+            pipeTop.Height = gapTop + 220;
+            pipeTop.Top = -220;
+            pipeBottom.Top = gapTop + gapHeight;
+            pipeBottom.Height = ground.Top - pipeBottom.Top + 80;
+            scoredCurrentPipe = false;
+        }
+        private void gameTimerEvent(object sender, EventArgs e)
+        {
+            Kirby.Top += gravity;
+            pipeBottom.Left -= pipeSpeed;
+
+            pipeTop.Left -= pipeSpeed;
+            scoreText.Text = "Score: " + score;
+
+            if (pipeBottom.Left < -pipeBottom.Width)
             {
-                PicOne.Left = offset;
-                int x = j[rand.Next(j.Length)];
-                int y = j[rand.Next(j.Length)];
-                if (ballXspeed < 0)
-                {
-                    ballXspeed = x;
-                }
-                else
-                {
-                    ballXspeed = -x;
-                }
-                if (ballYspeed < 0)
-                {
-                    ballYspeed = -y;
-                }
-                else
-                {
-                    ballYspeed = y;
-                }
+                resetPipePositions();
+            }
+            if (!scoredCurrentPipe && pipeBottom.Right < Kirby.Left)
+            {
+                score++;
+                scoredCurrentPipe = true;
+            }
+
+
+            if (Kirby.Bounds.IntersectsWith(pipeBottom.Bounds) ||
+                Kirby.Bounds.IntersectsWith(pipeTop.Bounds) ||
+                Kirby.Bounds.IntersectsWith(ground.Bounds) || Kirby.Top < -25
+                )
+            {
+                endGame();
+            }
+            if (score > 5)
+            {
+                pipeSpeed = 8;
             }
         }
 
-        private void GameOver(string message)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            GameTimer.Stop();
-            MessageBox.Show(message, "Kirby Says: ");
-            KeebyScore = 0;
-            KirbyScore = 0;
-            ballXspeed = ballYspeed = 4;
-            Keeby_speed_change = 50;
-            GameTimer.Start();
 
         }
-
-
-
     }
 }
