@@ -50,3 +50,11 @@ https://drive.google.com/drive/folders/1gr_s_LQaK-iODPdR7k5o88f4zkVg0FQJ
 - [ ] In mein Flappy bird Projekt möchte ich die restlichen meiner Assets erstellen und hinzufügen, was Musik und Kunst beinhaltet
 - [x] In mein Flappy bird Projekt das Scrollen von Pipes programmieren, somit es nicht immer das Gleiche kommt.
 - [x] in mein Flappy bird Projekt ein Highscore System programmieren
+## Reflexion 11.09.2026
+Heute ist mir sehr viel besser gegangen, so still, so leise, Konzentration war in mein BLUT. Heute konnte ich alles machen ausser die Assets, denn meine liebe Kollegin noch nicht fertig wurde, was absolut okay ist. Dateien wurden hinzugefügt, sodass jeder es sehen kann.
+## Hausaufgabe
+- [ ] In mein Flappy bird Projekt möchte ich die restlichen meiner Assets erstellen und hinzufügen, was Musik und Kunst beinhaltet
+
+## Planung 18.09.2026
+- [ ] In mein Flappy bird Projekt noch debuggen, um Fehler zu abfangen. nichts neues wird erstellt!
+- [ ] Alle Dateinen für "Jumpy" hier auf mein Github ablegen.
