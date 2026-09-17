@@ -54,7 +54,7 @@ https://drive.google.com/drive/folders/1gr_s_LQaK-iODPdR7k5o88f4zkVg0FQJ
 Heute ist mir sehr viel besser gegangen, so still, so leise, Konzentration war in mein BLUT. Heute konnte ich alles machen ausser die Assets, denn meine liebe Kollegin noch nicht fertig wurde, was absolut okay ist. Dateien wurden hinzugefügt, sodass jeder es sehen kann.
 ## Hausaufgabe
 - [x] In mein Flappy bird Projekt möchte ich die restlichen meiner Assets erstellen und hinzufügen, was Musik und Kunst beinhaltet
-Fertig! Ich lade noch ein Video auf, welches zeigt, wie das Endprodukt aussieht.<img width="80" height="60" alt="bird_20260913085513" src="https://github.com/user-attachments/assets/e96d3250-9801-461a-bcee-5522252abc55" />
+Fertig! Ich lade noch ein Video auf, welches zeigt, wie das Endprodukt aussieht. Meine liebe Kollegin (@catfan01) hat es noch fertig gemacht. In den nächsten Projekten mach ich auch noch eigene Dinge (wie ich auch mein Hintergrund gemacht habe).<img width="80" height="60" alt="bird_20260913085513" src="https://github.com/user-attachments/assets/e96d3250-9801-461a-bcee-5522252abc55" />
 
 
 ## Planung 18.09.2026
