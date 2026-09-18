@@ -4,7 +4,7 @@ Name: Ferreira Gomes Miguel
 14.08.2026 bis 18.09.2026
 
 ## fertige Projekte
-<img width="788" height="490" alt="Kirby Pong" src="https://github.com/user-attachments/assets/a260d40d-b9a0-438d-b993-898ec806b1c6" />
+<img width="790" height="486" alt="KIrby True Pong" src="https://github.com/user-attachments/assets/add5fd74-b70f-4c9e-b371-07cf5e4c11e8" />
 Hier ist der kleine Kirby Pong Spiel! Spieler gegen Komputer, versuch mit der oben und unten Tasten Kirby zu abprallen! Wer 5 hat gewinnt!
 <img width="520" height="612" alt="Kirby Jump" src="https://github.com/user-attachments/assets/26376ba9-b342-40db-b56c-3d63c705914d" />
 Kirbys Sprung ist ähnlich wie Flappy Birds, nicht war? Mit der Leertaste versuchen Sie mal zu sehen wie viel Röhre Sie durchkommen können!
