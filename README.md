@@ -55,7 +55,7 @@ Heute ist mir sehr viel besser gegangen, so still, so leise, Konzentration war i
 ## Hausaufgabe
 - [x] In mein Flappy bird Projekt möchte ich die restlichen meiner Assets erstellen und hinzufügen, was Musik und Kunst beinhaltet
 
-Fertig! Ich lade noch ein Video auf, welches zeigt, wie das Endprodukt aussieht. Meine liebe Kollegin (@catfan01) hat es noch fertig gemacht. In den nächsten Projekten mach ich auch noch eigene Dinge (wie ich auch mein Hintergrund gemacht habe).<img width="80" height="60" alt="bird_20260913085513" src="https://github.com/user-attachments/assets/e96d3250-9801-461a-bcee-5522252abc55" />
+Fertig! Ich lade noch ein Video auf(https://github.com/Miguelstarwalker/Lern_Atelier_1_Lern_Periode_1/blob/main/Kirby%20Jump.mp4), welches zeigt, wie das Endprodukt aussieht. Meine liebe Kollegin (@catfan01) hat es noch fertig gemacht. In den nächsten Projekten mach ich auch noch eigene Dinge (wie ich auch mein Hintergrund gemacht habe).<img width="80" height="60" alt="bird_20260913085513" src="https://github.com/user-attachments/assets/e96d3250-9801-461a-bcee-5522252abc55" />
 
 
 ## Planung 18.09.2026
