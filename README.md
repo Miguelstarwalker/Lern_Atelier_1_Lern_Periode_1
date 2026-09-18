@@ -59,5 +59,11 @@ Fertig! Ich lade noch ein Video auf(https://github.com/Miguelstarwalker/Lern_Ate
 
 
 ## Planung 18.09.2026
-- [ ] In mein Flappy bird Projekt noch debuggen, um Fehler zu abfangen. nichts neues wird erstellt! 
-- [ ] Alle Dateinen für "Jumpy" hier auf mein Github ablegen. (zusätzlich mach ich zwei kleine Videos  für beide Projekte)
+- [x] In mein Flappy bird Projekt noch debuggen, um Fehler zu abfangen. nichts neues wird erstellt! 
+- [x] Alle Dateinen für "Jumpy" hier auf mein Github ablegen. (zusätzlich mach ich zwei kleine Videos  für beide Projekte)
+
+## Reflexion
+
+<img width="396" height="245" alt="image" src="https://github.com/user-attachments/assets/b80f78c3-0649-4400-9944-28549dcfdc2e" />
+<img width="257" height="306" alt="image" src="https://github.com/user-attachments/assets/a09c75b8-d0b1-4049-979f-ad9210391878" />
+
