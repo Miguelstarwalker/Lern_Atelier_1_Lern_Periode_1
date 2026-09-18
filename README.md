@@ -1,7 +1,13 @@
 # Lern-Periode 1
 Name: Ferreira Gomes Miguel
 
-14.08.2026 bis -.-.2026
+14.08.2026 bis 18.09.2026
+
+## fertige Projekte
+<img width="788" height="490" alt="Kirby Pong" src="https://github.com/user-attachments/assets/a260d40d-b9a0-438d-b993-898ec806b1c6" />
+Hier ist der kleine Kirby Pong Spiel! Spieler gegen Komputer, versuch mit der oben und unten Tasten Kirby zu abprallen! Wer 5 hat gewinnt!
+<img width="520" height="612" alt="Kirby Jump" src="https://github.com/user-attachments/assets/26376ba9-b342-40db-b56c-3d63c705914d" />
+Kirbys Sprung ist ähnlich wie Flappy Birds, nicht war? Mit der Leertaste versuchen Sie mal zu sehen wie viel Röhre Sie durchkommen können!
 
 ### Grob-Planung
 ### Noten
@@ -62,8 +68,5 @@ Fertig! Ich lade noch ein Video auf(https://github.com/Miguelstarwalker/Lern_Ate
 - [x] In mein Flappy bird Projekt noch debuggen, um Fehler zu abfangen. nichts neues wird erstellt! 
 - [x] Alle Dateinen für "Jumpy" hier auf mein Github ablegen. (zusätzlich mach ich zwei kleine Videos  für beide Projekte)
 
-## Reflexion
 
-<img width="396" height="245" alt="image" src="https://github.com/user-attachments/assets/b80f78c3-0649-4400-9944-28549dcfdc2e" />
-<img width="257" height="306" alt="image" src="https://github.com/user-attachments/assets/a09c75b8-d0b1-4049-979f-ad9210391878" />
 
