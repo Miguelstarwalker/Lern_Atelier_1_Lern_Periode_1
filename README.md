@@ -3,6 +3,7 @@ Name: Ferreira Gomes Miguel
 
 14.08.2026 bis 18.09.2026
 
+https://github.com/Miguelstarwalker/Lern_Atelier_1_Lern_Periode_2
 ## fertige Projekte
 <img width="790" height="486" alt="KIrby True Pong" src="https://github.com/user-attachments/assets/add5fd74-b70f-4c9e-b371-07cf5e4c11e8" />
 
